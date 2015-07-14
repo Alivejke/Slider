@@ -1,0 +1,57 @@
+.widget
+  padding-top: 73px
+  font-family: helveticaneuecyrbold
+  h2
+    font-size: 24px
+    margin-bottom: 45px
+    text-transform: uppercase
+  .logo
+    float: right
+    .text
+      font-size: 12px
+      position: relative
+      top: -8px
+      margin-right: 7px
+      font-family: HelveticaNeue-Light
+      color: $grey-color
+      letter-spacing: 0.2px
+  .bx-wrapper
+    .bx-prev
+      background: url(../img/left-arrow.png) no-repeat
+    .bx-next
+      background: url(../img/right-arrow.png) no-repeat
+  
+  .bxslider
+    width: 100%
+    li
+      .image-wrapper
+        height: 250px
+        padding: 9px 0
+        margin-bottom: 23px
+        img
+          margin: 0 auto
+      .slider-title
+        text-transform: uppercase
+        font-size: 14px
+        font-weight: 600
+        line-height: 23px
+        margin-bottom: 13px
+        color: #585858
+      .description
+        font-family: HelveticaNeue-Light
+        color: $grey-color
+        font-size: 14px
+        letter-spacing: 0.3px
+      .price
+        float: right
+        color: #ff0000
+        text-transform: uppercase
+        font-size: 14px
+        position: relative
+        top: 2px
+      &:hover 
+        cursor: pointer
+        .slider-title
+          color: #000
+        .image-wrapper
+          background: #f2f2f2

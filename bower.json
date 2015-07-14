@@ -1,0 +1,15 @@
+{
+  "name": "bower",
+  "version": "0.0.0",
+  "authors": [
+    "dean_neal <venomsunset@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

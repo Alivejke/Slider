@@ -1,0 +1,20 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "UTF-8"}/
+    %title Document
+    %link{:href => "vendor/jquery.bxslider/jquery.bxslider.css", :rel => "stylesheet"}/
+    %link{:href => "css/main.css", :rel => "stylesheet"}/
+  %body 
+    %section.content
+      .widget
+        .logo
+          %span.text Sponsored Products by
+          %img{:alt => "", :height => "28", :src => "img/logo.png", :width => "22"}/
+        %h2 Products you may like
+        %ul.bxslider
+      / bower:js
+      %script{:src => "bower_components/jquery/dist/jquery.js"}
+      / endbower
+      %script{:src => "vendor/jquery.bxslider/jquery.bxslider.js"}
+      %script{:src => "js/main.js"}

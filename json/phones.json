@@ -1,0 +1,26 @@
+[
+  {
+    "url": "img/samsung-prime.png",
+    "title": "samsung galaxy core prome g360 8gb 4g lte",
+    "description": "Crazy Deals",
+    "price": "AED 499.00"
+  },
+  {
+    "url": "img/samsung-s6.png",
+    "title": "samsung galaxy s6 - 32gb, 4g lte, black",
+    "description": "Souq",
+    "price": "AED 1999.00"
+  },
+  {
+    "url": "img/samsung-alpha.png",
+    "title": "samsung galaxy alpha g850f - 32gb, 4gb lte, black",
+    "description": "Souq",
+    "price": "AED 1098.99"
+  },
+  {
+    "url": "img/samsung-note2.png",
+    "title": "samsung galaxy note || n7100 16gb blue",
+    "description": "Crazy Deals",
+    "price": "AED 1099.00"
+  }
+]
